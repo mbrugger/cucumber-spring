@@ -3,16 +3,13 @@ package eu.brugger.martin.acceptance.steps;
 import cucumber.api.java8.En;
 import eu.brugger.martin.acceptance.TestConfiguration;
 import eu.brugger.martin.acceptance.world.CustomerData;
-import org.hamcrest.Matcher;
 import org.junit.Assert;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 
-import static jdk.internal.dynalink.support.Guards.isNull;
 import static org.hamcrest.core.Is.is;
-import static org.hamcrest.core.IsNull.nullValue;
 
 @ContextConfiguration(classes = TestConfiguration.class)
 public class OtherSteps implements En {
